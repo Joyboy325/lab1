@@ -6,7 +6,8 @@ namespace test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Student x = new Student(1, "xxx", "yyy");
+            x.getName();
         }
     }
 }
